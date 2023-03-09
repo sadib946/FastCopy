@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: #ebebeb;
+}
+
+.header-block{
+    margin-left: auto;      margin-right: auto;
+    width: 1000px;
+    height: 70px;           line-height: 70px;
+    border:solid 0px #fff;
+    text-align: center;
+    color: #d6d6d6;
+    font-size: 40px;
+    background-color: rgb(31, 46, 59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-button{
+    text-decoration: none;
+    color: #d6d6d6;
+}
+
+.send-block{
+    margin-left: auto;      margin-right: auto;
+    width: 1000px;
+    height: 300px;
+    border:solid 1px #fff;
+    
+}
+
+.footer-block{
+    margin-left: auto;      margin-right: auto;
+    width: 1000px;
+    height: 30px;           line-height: 30px;
+    border:solid 0px #fff;
+    text-align: center;
+    color: #d6d6d6;
+    font-size: 12px;
+    background-color: rgb(19, 19, 19);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.send-block{
+    margin-left: auto;      margin-right: auto;
+    margin-top: 10px;       
+    width: 500px;
+    height: 50px;
+    /* line-height: 80px; */
+    border:solid 0px #4e4e4e;
+    text-align: center;
+}
+
+.send-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+  }
+
+.receive-block{
+    margin-left: auto;      margin-right: auto;
+    margin-top: 10px;       
+    width: 500px;
+    height: 50px;
+    /* line-height: 80px; */
+    border:solid 0px #4e4e4e;
+    text-align: center;
+}
+
+.receive-button {
+    background-color: #182c52;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+
+/* SEND PAGE BLOCK */
+
+.send-page-block{
+    margin-left: auto;      margin-right: auto;
+    width: 500px;
+    height: auto;
+    border:solid 0px #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.send-id-input{
+    width:492px;             height:30px;
+    margin-bottom: 10px;
+}
+
+.send-textarea{
+    width:492px;             height: 50px;
+    margin-bottom: 10px;
+}
+
+.send-form-button{
+    cursor: pointer;
+    width:500px;             height: 30px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    border: none;
+}
+
+/* RECEIVE PAGE BLOCK */
+.receive-page-block{
+    margin-left: auto;      margin-right: auto;
+    width: 800px;
+    height: auto;
+    /* border:solid 1px #fff; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.receive-header-block{
+    margin-left: auto;      margin-right: auto;
+    width:100%;             height:30px;
+    line-height: 30px;
+    border:solid 1px #182c52;
+}
+
+.session-id-title-block{
+    float:left;
+    width:150px;            height:30px;
+    padding-left:10px;
+    background-color: #1e504d;
+    color: #ebebeb;
+}
+
+.session-id-block{
+    float:left;
+    width:150px;            height:30px;
+    padding-left:10px;
+    color: #085c94;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.receive-content-block{
+    margin-left: auto;      margin-right: auto;
+    width:100%;             height:auto;
+    /* border:dotted 1px #182c52; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.receive-content{
+    margin-left: auto;      margin-right: auto;
+    width:95%;             height:auto;
+    border:dotted 1px #182c52;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.receive-datetime{
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    color: #1b1b1b;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.receive-refresh-block{
+    margin-left: auto;      margin-right: auto;
+    width:100%;             height:auto;
+    line-height: 30px;
+    /* border:solid 1px #182c52; */
+    text-align: center;
+}
+
+.refresh-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+  }
+
+/* LOG AREA */
+.log-block{
+    margin-left: auto;      margin-right: auto;
+    width: 500px;           
+    height: auto;
+    border:solid 1px #720505;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
